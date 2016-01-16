@@ -2,5 +2,6 @@
     <string name="app_name">My Traffic</string>
 
     <string name="head">จราจร</string>
+    <string name="bottom">ABOUT ME</string>
 
 </resources>
