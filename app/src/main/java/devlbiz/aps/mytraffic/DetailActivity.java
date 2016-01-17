@@ -41,6 +41,9 @@ public class DetailActivity extends AppCompatActivity {
         imageViewHeader.setImageResource(intIcon);
 
         //Show Detail
+        int intIndex = getIntent().getIntExtra("Index", 0);
+        String[] detStrings = getResources().getStringArray(R.array.detail);
+        listTextDetail.setText(detStrings[intIndex]);
 
     } //Show Detail
 
